@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+div {
+    background-color: black;
+    color: white;
+    width: 500px;  
+    margin-left: 30%;    
+}
+
+
+h1 {
+    color: white;
+   text-align: center;
+  
+}
+.left{
+    width: 40px;
+   
+    
+}
+.right{
+    width: 40px;
+   
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: gray;
+    font-size: 20;
+    text-align: center;
+   margin-left: 31%;
+   margin-top: 40px;
+}
+    label{
+        margin-left: 23%;
+        margin-top: 30px;
+    }
+    img{
+        margin-left: 28%;
+    }
+    .gil{
+        width: 200px;
+        height: 200px;
+        margin-left: 32%;
+    }
+    button:hover{
+        opacity: 0.8;
+    }
+    button:active{
+        opacity: 0.4;
+    }
