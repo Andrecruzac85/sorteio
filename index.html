@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script></script>
-    <title>sorteio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="./scripts.js" defer></script>
+  <title>sorteio</title>
 </head>
 <body>
-    <div>
-        <img src="./img/vegas.png" alt="logo">
+  <div>
+    <img src="./img/vegas.png" alt="logo">
     <h1>SORTEIO <br>CONFRATERNIZAÇÃO</h1>
-   <label>de
-    <input class="left" type="number">
-    </label>
-    <label>até
-    <input class="right" type="number">
-    </label>
-    <br>
-    <button>clique aqui</button>
-    <img class="gil" src="./img/gil.jpg" alt="gil">
-    </div>
 
+    <label>de
+      <input id="min" class="left" type="number">
+    </label>
+
+    <label>até
+      <input id="max" class="right" type="number">
+    </label>
+    
+    <br>
+
+    <button id="sortear">clique aqui</button>
+
+    <h2 id="resultado"></h2>
+
+    <img class="gil" src="./img/gil.jpg" alt="gil">
+  </div>
 </body>
 </html>
