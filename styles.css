@@ -87,9 +87,9 @@ button{
   transform: scale(1);
   margin-left: 10%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   
  main{
-    margin-left: -5%;
+    margin-left: 0%;
  }
 }
