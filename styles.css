@@ -26,6 +26,9 @@ h1 {
     margin-right: auto;
 
 }
+.right {
+    margin-left: 30%;
+}
 
 input {
     margin-left: 5%;
@@ -41,9 +44,7 @@ input {
 
 }
 
-.right {
-    margin-left: 30%;
-}
+
 
 button {
     display: block;
