@@ -26,16 +26,17 @@ h1 {
     margin-right: auto;
 
 }
-.right {
-    margin-left: 30%;
-}
 h3{
     color: white;
     text-align: center;
     margin-bottom: 20px;
 }
+.right {
+    margin-left: 30%;
+}
 
 input {
+    text-align: center;
     margin-left: 5%;
     color: #FFF;
     font-size: 20px;
@@ -48,8 +49,6 @@ input {
     width: 100px;
 
 }
-
-
 
 button {
     display: block;
