@@ -102,6 +102,9 @@ button:active {
     transform: scale(1);
     margin-left: 10%;
 }
+.logo{
+    margin-top: 30%;
+}
 
 @media screen and (max-width: 900px) {
 
